@@ -1115,9 +1115,9 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Team
+# Doctors
 --------------------------------------------------------------*/
-.team .member {
+.doctors .member {
   position: relative;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   padding: 30px;
@@ -1127,32 +1127,32 @@ section {
   height: 100%;
 }
 
-.team .member .pic {
+.doctors .member .pic {
   overflow: hidden;
   width: 180px;
   border-radius: 50%;
 }
 
-.team .member .pic img {
+.doctors .member .pic img {
   transition: ease-in-out 0.3s;
 }
 
-.team .member:hover {
+.doctors .member:hover {
   transform: translateY(-10px);
 }
 
-.team .member .member-info {
+.doctors .member .member-info {
   padding-left: 30px;
 }
 
-.team .member h4 {
+.doctors .member h4 {
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 20px;
   color: #37517e;
 }
 
-.team .member span {
+.doctors .member span {
   display: block;
   font-size: 15px;
   padding-bottom: 10px;
@@ -1160,7 +1160,7 @@ section {
   font-weight: 500;
 }
 
-.team .member span::after {
+.doctors .member span::after {
   content: "";
   position: absolute;
   display: block;
@@ -1171,19 +1171,19 @@ section {
   left: 0;
 }
 
-.team .member p {
+.doctors .member p {
   margin: 10px 0 0 0;
   font-size: 14px;
 }
 
-.team .member .social {
+.doctors .member .social {
   margin-top: 12px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
 }
 
-.team .member .social a {
+.doctors .member .social a {
   transition: ease-in-out 0.3s;
   display: flex;
   align-items: center;
@@ -1194,21 +1194,21 @@ section {
   background: #eff2f8;
 }
 
-.team .member .social a i {
+.doctors .member .social a i {
   color: #37517e;
   font-size: 16px;
   margin: 0 2px;
 }
 
-.team .member .social a:hover {
+.doctors .member .social a:hover {
   background: #47b2e4;
 }
 
-.team .member .social a:hover i {
+.doctors .member .social a:hover i {
   color: #fff;
 }
 
-.team .member .social a+a {
+.doctors .member .social a+a {
   margin-left: 8px;
 }
 
