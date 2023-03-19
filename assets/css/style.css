@@ -398,11 +398,11 @@ h6 {
   height: 80vh;
   background: #37517e;
 }
-/*
+
 #hero .container {
   padding-top: 72px;
 }
-*/
+
 #hero h1 {
   margin: 0 0 10px 0;
   font-size: 48px;
@@ -468,7 +468,7 @@ h6 {
   }
 
   #hero .animated {
-    -webkit-animation: none;
+    -webkit-animation: up-down 2s ease-in-out infinite alternate-reverse both;
     animation: up-down 2s ease-in-out infinite alternate-reverse both;
   }
 
@@ -483,7 +483,6 @@ h6 {
 
 @media (max-width: 768px) {
   #hero h1 {
-    margin: 50px 0 50px 0;
     font-size: 28px;
     line-height: 36px;
   }
