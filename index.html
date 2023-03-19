@@ -74,7 +74,7 @@
             </ul>
           </li>
           -->
-          <li><a class="getstarted scrollto" href="#about">Make an Appointment</a></li>
+          <li><a class="getstarted scrollto" href="#appointment">Make an Appointment</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -89,9 +89,9 @@
       <div class="row">
         <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
           <h1>Let the doctor take care of your picture!</h1>
-          <h2>Welcome to Doctor Photoshop! We specialize in photo editing and can help you to create stunning images that you'll be proud to share with your family and friends. Whether you need to remove unwanted objects from your photos, add a special effect, or simply enhance the overall quality of your images, we can help. Our editing services are fast, reliable, and affordable. To get started, simply click on the "make an appointment" button and send us your photos and prompts. We'll take care of the rest!</h2>
+          <h2>Welcome to Doctor Photoshop! To get started, simply click on the "make an appointment" button and send us your photos and prompts. We'll take care of the rest!</h2>
           <div class="d-flex justify-content-center justify-content-lg-start">
-            <a href="#about" class="btn-get-started scrollto">Make an Appointment</a>
+            <a href="#appointment" class="btn-get-started scrollto">Make an Appointment</a>
             <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
           </div>
         </div>
@@ -329,12 +329,58 @@
             <p> Got curious? Schedule your photo operation today and let Doctor Photoshop take care of your photo health needs!</p>
           </div>
           <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="#">Make an Appointment</a>
+            <a class="cta-btn align-middle" href="#appointment">Make an Appointment</a>
           </div>
         </div>
 
       </div>
     </section><!-- End Cta Section -->
+
+    <!-- ======= Appointment Section ======= -->
+    <section id="appointment" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Make an Appointment</h2>
+          <p> Book now and transform your vision into reality with a simple appointment! </p>
+        </div>
+
+        <div class="row">
+
+          <div class="align-items-stretch">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="form-group col-md-6">
+                  <label for="name">Your Name</label>
+                  <input type="text" name="name" class="form-control" id="nameA" required>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="name">Your Email</label>
+                  <input type="email" class="form-control" name="email" id="emailA" required>
+                </div>
+              </div>
+              <div style="text-align: center;">
+                <label for="file">Select a file:</label>
+                <input type="file" name="file" id="file">
+              </div>
+
+              <div class="form-group">
+                <label for="name">What can Doctor Photoshop do for you?</label>
+                <textarea class="form-control" name="message" rows="10" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Request</button></div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
 
     <!-- ======= Doctors Section ======= -->
     <section id="doctors" class="doctors section-bg">
@@ -423,7 +469,7 @@
 
         <div class="section-title">
           <h2>Portfolio</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <p> Explore previous operations!</p>
         </div>
 
         <ul id="portfolio-flters" class="d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
@@ -597,7 +643,7 @@
 
         <div class="section-title">
           <h2>Frequently Asked Questions</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <p>Got Questions? We got Answers!</p>
         </div>
 
         <div class="faq-list">
@@ -753,8 +799,6 @@
 
       </div>
     </section><!-- End Contact Section -->
-
-
 
   </main><!-- End #main -->
 
