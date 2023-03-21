@@ -959,6 +959,36 @@ section {
   background-size: cover;
 }
 
+.icon-box {
+  position: relative;
+}
+
+.icon-box::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.7) 100%);
+}
+
+.icon-box h4,
+.icon-box p {
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  right: 0;
+  color: #c2dce5;
+  text-align: center;
+  z-index: 1;
+  margin-bottom: 40px;
+  text-shadow:
+          -1px -1px 0 #000,
+           1px -1px 0 #000,
+           -1px  1px 0 #000,
+           1px  1px 0 #000;
+}
 
 
 /*--------------------------------------------------------------
