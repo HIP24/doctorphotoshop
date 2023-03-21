@@ -871,7 +871,7 @@ section {
   /*background: #fff;*/
   position: relative;
   overflow: hidden;
-  height: 250px; /* set the desired height */
+  height: 270px; /* set the desired height */
 }
 
 .services .icon-box .icon {
