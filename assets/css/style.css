@@ -869,6 +869,9 @@ section {
   padding: 50px 30px;
   transition: all ease-in-out 0.4s;
   /*background: #fff;*/
+  position: relative;
+  overflow: hidden;
+  height: 250px; /* set the desired height */
 }
 
 .services .icon-box .icon {
