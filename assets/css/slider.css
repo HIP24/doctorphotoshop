@@ -52,7 +52,7 @@ div.image {
     }
 }
 
-/* Styles for viewports greater than 1399px */
+/* Styles for viewports greater than 1400px */
 @media screen and (min-width: 1400px) {
     div.image {
         /* Adjust styles as needed */
