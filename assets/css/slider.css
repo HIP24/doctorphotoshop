@@ -12,6 +12,29 @@ div.image {
     left: 0px;
 }
 
+/* Styles for viewports less than 768px */
+@media screen and (max-width: 767px) {
+    div.image {
+        /* Adjust styles as needed */
+        height: 126.5%;
+    }
+}
+
+/* Styles for viewports between 769px and 991px */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    div.image {
+        /* Adjust styles as needed */
+        height: 100.5%;
+    }
+}
+
+/* Styles for viewports greater than 992px */
+@media screen and (min-width: 992px) {
+    div.image {
+        /* Adjust styles as needed */
+    }
+}
+
 div.before {
     width: 50%;
     z-index: 2;
