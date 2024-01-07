@@ -61,7 +61,7 @@ div.image {
 }
 
 div.before {
-    width: 50%;
+    width: 90%;
     z-index: 2;
 
 }
@@ -118,7 +118,7 @@ div.slider-button {
     background-color: white;
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 89.5%;
     transform: translate(-50%, -50%);
     cursor: pointer;
     z-index: 3;
