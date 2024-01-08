@@ -462,6 +462,9 @@ h6 {
 #hero .animated {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
+.animated {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
 
 @media (max-width: 991px) {
   #hero {
@@ -1519,7 +1522,7 @@ section {
 /*--------------------------------------------------------------
 # How it works
 --------------------------------------------------------------*/
-.how-it-works .icon-box { 
+.process .icon-box { 
   position: relative;
   overflow: hidden;
   background: #fff;
@@ -1528,60 +1531,60 @@ section {
   border-radius: 8px;
 }
 
-.how-it-works .icon-box img {
+.process .icon-box img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.how-it-works .icon-box h4 {
+.process .icon-box h4 {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 24px;
 }
 
-.how-it-works .icon-box h4 a {
+.process .icon-box h4 a {
   color: #374b5c;
 }
 
-.how-it-works .icon-box p {
+.process .icon-box p {
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
   text-align: center;
 }
 
-.how-it-works .icon-box:hover {
+.process .icon-box:hover {
   transform: translateY(-10px);
 }
 
-.how-it-works .icon-box:hover h4 a {
+.process .icon-box:hover h4 a {
   color: #47b2e4;
 }
 
 
-  #how-it-works-h4-1 {
+  #process-h4-1 {
     position: absolute; top: 26%; left: 34%; font-size: 30px;
 }
 
-  #how-it-works-p-1 {
+  #process-p-1 {
     position: absolute; top: 47%; left: 36%; right:10px;font-size: 15px; color: white;line-height: 1.2;
 }
 
-#how-it-works-h4-2 {
+#process-h4-2 {
   position: absolute; top: 26%; left: 30%; font-size: 30px;
 }
 
-#how-it-works-p-2 {
+#process-p-2 {
   position: absolute; top: 47%; left: 33%; right:10px;font-size: 15px; color: white;line-height: 1.2;
 }
 
 
-#how-it-works-h4-3 {
+#process-h4-3 {
   position: absolute; top: 26%; left: 34%; font-size: 30px;
 }
 
-#how-it-works-p-3 {
+#process-p-3 {
   position: absolute; top: 47%; left: 37%; right:10px;font-size: 15px; color: white;line-height: 1.2;
 }
 
@@ -1590,22 +1593,22 @@ section {
 
 /* Styles for viewports less than 442px */
 @media screen and (max-width: 442px) {
-  #how-it-works-h4-1, #how-it-works-h4-2, #how-it-works-h4-3 {
+  #process-h4-1, #process-h4-2, #process-h4-3 {
     font-size: 20px;
   }
 
-  #how-it-works-p-1, #how-it-works-p-2, #how-it-works-p-3 {
+  #process-p-1, #process-p-2, #process-p-3 {
     font-size: 12px;
   }
 }
 
 /* Styles for viewports between 443px and 575px */
 @media screen and (min-width: 443px) and (max-width: 575px) {   
-  #how-it-works-h4-1, #how-it-works-h4-2, #how-it-works-h4-3 {
+  #process-h4-1, #process-h4-2, #process-h4-3 {
       /* Adjust styles as needed */
   }
 
-  #how-it-works-p-1, #how-it-works-p-2, #how-it-works-p-3 {
+  #process-p-1, #process-p-2, #process-p-3 {
       /* Adjust styles as needed */
       font-size: 20px;
   }
@@ -1613,11 +1616,11 @@ section {
 
 /* Styles for viewports between 576px and 767px */
 @media screen and (min-width: 576px) and (max-width: 767px) {
-  #how-it-works-h4-1, #how-it-works-h4-2, #how-it-works-h4-3 {
+  #process-h4-1, #process-h4-2, #process-h4-3 {
       /* Adjust styles as needed */
   }
 
-  #how-it-works-p-1, #how-it-works-p-2, #how-it-works-p-3 {
+  #process-p-1, #process-p-2, #process-p-3 {
       /* Adjust styles as needed */
       font-size: 20px;
   }
@@ -1625,12 +1628,12 @@ section {
 
 /* Styles for viewports between 768px and 991px */
 @media screen and (min-width: 768px) and (max-width: 991px) {
-  #how-it-works-h4-1, #how-it-works-h4-2, #how-it-works-h4-3 {
+  #process-h4-1, #process-h4-2, #process-h4-3 {
       /* Adjust styles as needed */
       font-size: 20px;
   }
 
-  #how-it-works-p-1, #how-it-works-p-2, #how-it-works-p-3 {
+  #process-p-1, #process-p-2, #process-p-3 {
       /* Adjust styles as needed */
       font-size: 12px;
   }
@@ -1638,12 +1641,12 @@ section {
 
 /* Styles for viewports between 992px and 1399px */
 @media screen and (min-width: 992px) and (max-width: 1399px) {
-  #how-it-works-h4-1, #how-it-works-h4-2, #how-it-works-h4-3 {
+  #process-h4-1, #process-h4-2, #process-h4-3 {
       /* Adjust styles as needed */
       font-size: 20px;
   }
 
-  #how-it-works-p-1, #how-it-works-p-2, #how-it-works-p-3 {
+  #process-p-1, #process-p-2, #process-p-3 {
       /* Adjust styles as needed */
       font-size: 10px;
   }
@@ -1651,11 +1654,11 @@ section {
 
 /* Styles for viewports greater than 1400px */
 @media screen and (min-width: 1400px) {
-  #how-it-works-h4-1, #how-it-works-h4-2, #how-it-works-h4-3 {
+  #process-h4-1, #process-h4-2, #process-h4-3 {
       /* Adjust styles as needed */
   }
 
-  #how-it-works-p-1, #how-it-works-p-2, #how-it-works-p-3 {
+  #process-p-1, #process-p-2, #process-p-3 {
       /* Adjust styles as needed */
   }
 }
