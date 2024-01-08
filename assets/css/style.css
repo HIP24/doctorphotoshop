@@ -410,11 +410,12 @@ h6 {
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  color: #fff;
+  color: #47b2e4;;
 }
 
 #hero h2 {
-  color: rgba(255, 255, 255, 0.6);
+  /*color: rgba(255, 255, 255, 0.6);*/
+  color: rgba(255, 255, 255);
   margin-bottom: 50px;
   font-size: 24px;
 }
