@@ -1591,11 +1591,11 @@ section {
 /* Styles for viewports less than 442px */
 @media screen and (max-width: 442px) {
   #how-it-works-h4-1, #how-it-works-h4-2, #how-it-works-h4-3 {
-      position: absolute; top: 26%; left: 34%; font-size: 30px;
+    font-size: 20px;
   }
 
   #how-it-works-p-1, #how-it-works-p-2, #how-it-works-p-3 {
-      position: absolute; top: 47%; left: 36%; right:10px;font-size: 15px; color: white;line-height: 1.2;
+    font-size: 12px;
   }
 }
 
